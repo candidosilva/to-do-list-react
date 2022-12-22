@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.createdTasksArea {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.createdTasks {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.finishedArea {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.finished {
+  color: var(--purple);
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.createdTasksCount,
+.finishedCount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-400);
+  padding: 2px 8px;
+  border-radius: 999px;
+  color: var(--white);
+  font-size: 0.75rem;
+  font-weight: bold;
+  gap: 2px;
+}
